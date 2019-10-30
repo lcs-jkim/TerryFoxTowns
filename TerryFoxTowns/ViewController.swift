@@ -48,9 +48,6 @@ class ViewController: UIViewController {
         resizeLabelAndScrollView()
         
     }
-        
-        // Reset the label
-             resetLabel()
     
     // This function sizes the label and the scroll view so that the scroll view will scroll
     // NOTE TO STUDENTS: Do not delete this function.
@@ -79,6 +76,9 @@ class ViewController: UIViewController {
 
         // NOTE TO STUDENTS
         // Add your code below...
+            
+            // Reset the label
+                       resetLabel()
         
             guard let DistanceAsString = Distance.text else {
                 labelOutput.text = ("Please enter a value")
